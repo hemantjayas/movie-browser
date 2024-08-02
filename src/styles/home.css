@@ -1,0 +1,39 @@
+.homeContainer {
+    display: flex;
+    position: relative;
+}
+
+.moviesList {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 4.5vw;
+    z-index: 1;
+}
+
+.sortingFilterPanel {
+    width: 20%;
+    padding: 2vw;
+    border-left: 1px solid #ddd;
+    background-color: #f9f9f9;
+    position: fixed;
+    top: 4.5vw;
+}
+
+.sortingFilterPanel h3 {
+    margin-top: 0;
+}
+
+.filterSection {
+    margin-bottom: 20px;
+}
+
+.filterSection h4 {
+    margin: 0 0 10px;
+}
+
+.filterSection select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}

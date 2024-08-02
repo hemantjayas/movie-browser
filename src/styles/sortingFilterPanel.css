@@ -1,0 +1,35 @@
+
+.homeContainer {
+    display: flex;
+  }
+  
+  .moviesList {
+    flex: 0 0 80%; /* 80% width for the Movies component */
+    padding: 20px;
+  }
+  
+  .sortingFilterPanel {
+    flex: 0 0 20%; /* 20% width for the sorting/filter panel */
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  .sortingFilterPanel h3 {
+    margin-top: 0;
+  }
+  
+  .filterSection {
+    margin-bottom: 20px;
+  }
+  
+  .filterSection h4 {
+    margin: 0 0 10px;
+  }
+  
+  .filterSection select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
